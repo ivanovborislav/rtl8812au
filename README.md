@@ -160,4 +160,21 @@ Driver VHT control, rtw_vht_enable=
 2:force auto enable (allow width: 80 MHz, AP mode)
 ```
 
+Driver wireless mode control, rtw_wireless_mode=
+```
+1: 2.4GHz 802.11b
+2: 2.4GHz 802.11g
+3: 2.4GHz 802.11b/g
+4: 5GHz 802.11a
+8: 2.4Hz 802.11n
+11: 2.4GHz 802.11b/g/n
+16: 5GHz 802.11n
+20: 5GHz 802.11a/n
+64: 5GHz 802.11ac
+84: 5GHz 802.11a/n/ac
+95: 2.4GHz 802.11b/g/n 5GHz 802.11a/n/ac (default)
+```
+
+### [Add support rtl8821AU to rtl8812AU v5.13.6 driver (support chipset RTL8812AU, RTL8821AU, RTL8811AU)](https://github.com/ivanovborislav/document/blob/main/add_support_rtl8821AU_to_rtl8812AU_v5.13.6_driver.md)
+
 -----
