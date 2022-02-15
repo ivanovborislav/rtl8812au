@@ -19,6 +19,7 @@
 
 - Monitor mode (resolves a `fixed channel 1` issue.)
 - Packet injection
+- REGD source selection
 
 ## HOW TO
 
@@ -173,6 +174,12 @@ Driver wireless mode control, rtw_wireless_mode=
 64: 5GHz 802.11ac
 84: 5GHz 802.11a/n/ac
 95: 2.4GHz 802.11b/g/n 5GHz 802.11a/n/ac (default)
+```
+
+Driver REGD source selection, rtw_regd_src=
+```
+0:Realtek defined
+1:OS (default, get channel plan from OS)
 ```
 
 ### [Add support rtl8821AU to rtl8812AU v5.13.6 driver (support chipset RTL8812AU, RTL8821AU, RTL8811AU)](https://github.com/ivanovborislav/document/blob/main/add_support_rtl8821AU_to_rtl8812AU_v5.13.6_driver.md)
