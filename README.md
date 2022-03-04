@@ -9,7 +9,7 @@
 - Support Kernel: 4.4 - 5.11 (Realtek)
 - Support up to Kernel 5.16
 
-Kernel 5.17-rc5 support
+Kernel 5.17-rc6 support
 
 `wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/rtl8812AU_v5.13.6_kernel_5.17-rc5_support.patch`
 
