@@ -7,11 +7,7 @@
 - v5.13.6 (20210629)
 - Based on EDIMAX EW-7822UAC Linux Driver (Version : 1.0.4.1) 2021-09-17
 - Support Kernel: 4.4 - 5.11 (Realtek)
-- Support up to Kernel 5.16
-
-Kernel 5.17-rc6 support
-
-`wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/rtl8812AU_v5.13.6_kernel_5.17-rc5_support.patch`
+- Support up to Kernel 5.17
 
 ##	Added
 
