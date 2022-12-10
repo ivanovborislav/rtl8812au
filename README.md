@@ -9,6 +9,16 @@
 - Support Kernel: 4.4 - 5.11 (Realtek)
 - Support up to Kernel 6.0.0
 
+Kernel 6.1 rc5 support
+```
+cd rtl8812au
+wget https://raw.githubusercontent.com/ivanovborislav/document/main/patch/rtl8812au_v5.13.6_k-6.1-rc5.patch
+patch -p1 < rtl8812au_v5.13.6_k-6.1-rc5.patch
+make clean
+make
+sudo make install
+```
+
 ##	Added
 
 - Support for Raspberry Pi
